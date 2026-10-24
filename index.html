@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Динамический сайт на GitHub Pages</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #eef2f5; text-align: center; padding: 40px; }
+        .box { background: white; padding: 20px; margin: 10px auto; max-width: 450px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        button { background: #007bff; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Динамический веб-сайт</h2>
+        <p>Текущее время: <b id="clock">--:--:--</b></p>
+        <hr>
+        <p>Счетчик кликов: <span id="counterValue">0</span></p>
+        <button id="clickBtn">Нажми меня</button>
+        <hr>
+        <p id="quote">Загрузка цитаты по API...</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
